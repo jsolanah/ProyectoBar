@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+
+    <VBox alignment="CENTER" spacing="10">
+        <HBox alignment="CENTER" spacing="10" VBox.vgrow="NEVER">
+            <Button onAction="#vaciarMesa" text="Vaciar Mesa" />
+            <Button  onAction="#mostrarFactura" text="Generar Factura" VBox.vgrow="NEVER">
+                <HBox.margin>
+                    <Insets left="10.0" />
+                </HBox.margin>
+            </Button>
+            <Button fx:id="retrocesoButton" onAction="#mesaPagada" text="Pagado" />
+        </HBox>
+        <Label fx:id="mesaLabel" alignment="CENTER" textAlignment="CENTER" textFill="#002e8a" VBox.vgrow="NEVER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <HBox alignment="CENTER" spacing="10" VBox.vgrow="ALWAYS">
+            <GridPane fx:id="gridPane" hgap="10" vgap="10">
+                <!-- Botones generados dinámicamente irán aquí -->
+            </GridPane>
+        </HBox>
+        <HBox alignment="CENTER" spacing="5" HBox.hgrow="ALWAYS">
+             <ListView fx:id="listaProductos" />
+            <VBox spacing="5" VBox.vgrow="ALWAYS">
+                <Label fx:id="totalLabel" text="Total: $0.00" />
+            </VBox>
+        </HBox>
+        <!-- Puedes agregar más elementos aquí según tus necesidades -->
+    </VBox>
+
+</AnchorPane>
