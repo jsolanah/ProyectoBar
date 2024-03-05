@@ -11,6 +11,7 @@ Aplicación del punto de venta de un bar como proyecto final del módulo Desarro
 - ## Version 0.0.5 (02/03/2024)
 
   - Añadidos botones de Vaciar , Pagar y Factura en las mesas
+  - Configuracion del sql y crear la clase BaseDatos
 
   - Listado de productos y botones para hacer su funcionalidad
   - Detalles de la cuenta de una mesa
