@@ -1,5 +1,5 @@
 # ProyectoBar
-Aplicación del punto de venta de un bar como proyecto final del módulo Desarrollo de Interfaces del grado superior Desarrollo de Aplicaciones Multiplataforma.
+Aplicación del punto de venta de un bar como proyecto final del módulo Desarrollo de Interfaces.
 
 # Changelog
 
