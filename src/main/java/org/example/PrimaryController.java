@@ -93,7 +93,6 @@ public class PrimaryController {
         stage.setOnCloseRequest(event -> {
             if (mesa.getProductos().isEmpty()) {
                 mesa.setOcupada(false);
-                //botonMesa.setBackground(new Background(new BackgroundFill(Color.WHITE, null, null)));
             }
             actualizarBotonMesa(mesa, botonMesa);
         });
